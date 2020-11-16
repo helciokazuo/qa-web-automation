@@ -42,9 +42,9 @@ Project is created with:
 
 
 * Don't forget to add this below to 'cypress/support/command.js'
-
+``` 
 import 'cypress-file-upload';
-
+```
 
 * If you want to suppress uncaught exceptions (from web application) on CLI execution, add this below to 'cypress/support/index.js' 
 
@@ -60,17 +60,18 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
 ### How to run
 
+
 * If you want to use GUI, start cypress 
 
 ```
 node_modules/.bin/cypress open
 ```
-
 and select the file "cypress/integration/web_test_form/qa_test_form.js"
 
 
-* If you want to start it from CLI, just execute: 
 
+
+* If you want to start it from CLI, just execute (for example): 
 
 ```
 node_modules/.bin/cypress run --browser chrome -s cypress/integration/web_test_form/qa_test_form.js

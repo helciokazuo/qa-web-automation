@@ -66,9 +66,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 ```
 node_modules/.bin/cypress open
 ```
-        
-    and select the file "cypress/integration/web_test_form/qa_test_form.js"
-
+      
+and select the file "cypress/integration/web_test_form/qa_test_form.js"
 
 
 

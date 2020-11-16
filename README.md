@@ -61,14 +61,11 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 ### How to run
 
 
-* If you want to use GUI, start cypress 
+* If you want to use GUI, start cypress (using this below) and select the file "cypress/integration/web_test_form/qa_test_form.js"
 
 ```
 node_modules/.bin/cypress open
-```
-and select the file "cypress/integration/web_test_form/qa_test_form.js"
-
-
+``` 
 
 
 * If you want to start it from CLI, just execute (for example): 
